@@ -14,34 +14,32 @@
 
 **1. 회원 관련 기능**
 - Kakao 연동 회원가입 / 로그인 (OAuth 2.0)
-   - 로그아웃
+- 로그아웃
+- 기본 배송지 등록
 
 **2. 상품 관련 기능**
    - 상품 목록 필터별 조회 (최신순, 낮은 가격순, 높은 가격순, 할인률순) + 성분 유의사항 표시
    - 상품 상세 조회
+   - 상품 댓글 목록 조회
+   - 상품 댓글 상세 보기
 
-**3. 장바구니 관련 기능**
+**3. AI & GPT 기반 개인 맞춤 상품 추천**
+   - 반려동물이 잘 먹는 사료 표지 등록
+   - 반려동물이 잘 먹는 사료 성분표 등록
+   - 유사도순으로 나의 반려동물 맞춤 사료 추천
+
+**4. 클럽 흰디 가입**
+   - 나의 반려동물 등록하기
+
+**5. 장바구니 관련 기능**
    - 장바구니 조회
-     장바구니에 추가
-   - 개인 장바구니에서 삭제
-   - 개인 장바구니에서 수량 변경
+   - 장바구니에 추가
+   - 장바구니의 수량 변경
+   - 장바구니에서 삭제
 
-**4. 그룹 장바구니 관련 기능**
-   - 그룹 장바구니 생성
-   - 그룹 장바구니 내 닉네임 변경
-   - 그룹 장바구니에 참여
-   - 그룹 장바구니 조회
-   - 그룹 장바구니에 추가
-   - 그룹 장바구니에서 삭제
-   - 그룹 장바구니에서 수량 변경
-   - 그룹 장바구니에서 나가기
-   - 그룹 장바구니 삭제하기 (그룹장)
-
-**5. 주문 관련 기능**
-   - 그룹 장바구니 일괄 주문하기
-   - 상세 배송지 검색하기
-   - 기본 배송지 입력하기
-   - 주문 내역 조회하기
+**6. 주문 및 결제**
+   - 장바구니에서 주문하기
+   - 결제하기 (TOSS PAYMENT)
 
 <br>
 
@@ -49,21 +47,20 @@
 ## 💡 기술 스택
 |분류|기술|
 | :-: |:- |
-|Language|<img src="https://img.shields.io/badge/JAVA-007396?style=for-the-badge&logo=java&logoColor=white"/>  <img src="https://img.shields.io/badge/kotlin-8B00FF?style=for-the-badge&logo=Kotlin&logoColor=white"/> |
-|Framework|<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"/>  <img src="https://img.shields.io/badge/Android-32DE84?style=for-the-badge&logo=Android&logoColor=white"/> |
-|Build Tool|<img src="https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white">|
+|Language|<img src="https://img.shields.io/badge/JAVA-007396?style=for-the-badge&logo=java&logoColor=white"/> |
+|Framework|<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring Boot&logoColor=white"/>   |
+|Build Tool|<img src="https://img.shields.io/badge/Apache%20Gradle-C71A36?style=for-the-badge&logo=Gradle&logoColor=white">|
 |DB|<img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white">|
-|Server|<img src="https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black">|
 |Collaboration|<img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white">|
 
 <br>
 
 
 ## 💡 **아키텍쳐**
-![시스템 아키텍처](https://github.com/chocomochalatte/.github/assets/100582309/13be722c-09c6-4179-86d3-4cfc6f2ea460)
+준비중입니다.
 
 <br>
 
 ## 💡 **DB 설계 (ERD)**
 
-![4조-그룹장바구니-erd](https://github.com/chocomochalatte/.github/assets/100582309/2351b813-62bf-4742-9d8b-e68a3398fac5)
+![THE PET](https://github.com/bogle-bogle/.github/assets/100582309/0c9bd009-b5d3-4e8e-8064-e6f2e67479b6)
